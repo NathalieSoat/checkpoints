@@ -1,6 +1,6 @@
 Assignment name  : repeat_alpha
 Expected files   : repeat_alpha.go
-Allowed functions: write
+Allowed functions: github.com/01-edu/z01.PrintRune, os.Args, --allow-builtin--
 --------------------------------------------------------------------------------
 
 Write a program called repeat_alpha that takes a string and display it
