@@ -1,0 +1,27 @@
+Assignment name  : search_and_replace
+Expected files   : search_and_replace.go
+Allowed functions: github.com/01-edu/z01.PrintRune, os.Args, --allow-builtin--
+--------------------------------------------------------------------------------
+
+Write a program called search_and_replace that takes 3 arguments, the first 
+arguments is a string in which to replace a letter (2nd argument) by
+another one (3rd argument).
+
+If the number of arguments is not 3, just display a newline.
+
+If the second argument is not contained in the first one (the string)
+then the program simply rewrites the string followed by a newline.
+
+Examples:
+$>go run . "Papache est un sabre" "a" "o"
+Popoche est un sobre
+$>go run . "zaz" "art" "zul"
+$
+$>go run . "zaz" "r" "u"
+zaz$
+$>./go run . "jacob" "a" "b" "c" "e" 
+$
+$>go run . "ZoZ eT Dovid oiME le METol." "o" "a"
+ZaZ eT David aiME le METal.$
+$>go run . "wNcOre Un ExEmPle Pas Facilw a Ecrirw " "w" "e" 
+eNcOre Un ExEmPle Pas Facile a Ecrire $
