@@ -1,0 +1,29 @@
+Assignment name  : repeat_alpha
+Expected files   : repeat_alpha.go
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program called repeat_alpha that takes a string and display it
+repeating each alphabetical character as many times as its alphabetical index,
+followed by a newline.
+
+'a' becomes 'a', 'b' becomes 'bb', 'e' becomes 'eeeee', etc...
+
+Case remains unchanged.
+
+If the number of arguments is not 1, just display a newline.
+
+Examples:
+
+$>go run . "abc"
+abbccc
+$>go run . "Alex." | cat -e
+Alllllllllllleeeeexxxxxxxxxxxxxxxxxxxxxxxx.$
+$>go run . 'abacadaba 42!' | cat -e
+abbacccaddddabba 42!$
+$>go run . | cat -e
+$
+$>
+$>go run . "" | cat -e
+$
+$>
