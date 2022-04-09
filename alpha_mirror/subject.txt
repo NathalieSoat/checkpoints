@@ -1,5 +1,5 @@
 Assignment name  : alpha_mirror
-Expected files   : main.go
+Expected files   : alpha_mirror.go
 Allowed functions: github.com/01-edu/z01.PrintRune, os.Args, --allow-builtin--
 --------------------------------------------------------------------------------
 
@@ -18,10 +18,10 @@ If the number of arguments is not 1, display only a newline.
 
 Examples:
 
-$>go run main.go "abc"
+$>go run . "abc"
 zyx
-$>go run main.go "My horse is Amazing." | cat -e
+$>go run . "My horse is Amazing." | cat -e
 Nb slihv rh Znzarmt.$
-$>go run main.go | cat -e
+$>go run . | cat -e
 $
 $>
