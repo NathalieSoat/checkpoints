@@ -1,6 +1,6 @@
-package main
+package checkpoints
 
-import "fmt"
+//import "fmt"
 
 func FindPrevPrime(nb int) int {
 	result := nb
@@ -15,7 +15,7 @@ func FindPrevPrime(nb int) int {
 	return result
 }
 
-func main() {
-	fmt.Println(FindNextPrime(5))
-	fmt.Println(FindNextPrime(4))
-}
+//func main() {
+//	fmt.Println(FindPrevPrime(10))
+//	fmt.Println(FindPrevPrime(4))
+//}
