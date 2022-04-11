@@ -1,0 +1,19 @@
+Assignment name  : paramscount
+Expected files   : paramscount.go
+Allowed functions: github.com/01-edu/z01.PrintRune, os.Args, --allow-builtin--
+--------------------------------------------------------------------------------
+
+Write a program that displays the number of arguments passed to it, followed by
+a newline.
+
+If there are no arguments, just display a 0 followed by a newline.
+
+Example:
+
+$>go run . 1 2 3 5 7 24
+6
+$>go run . 6 12 24 
+3$
+$>go run . 
+0$
+$>
