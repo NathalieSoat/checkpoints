@@ -19,8 +19,8 @@ func main() {
 		return
 	}
 	f := []rune(os.Args[1])
-	f2 := []rune(os.Args[2]) // searcheable chr
-	f3 := []rune(os.Args[3]) // replaceable chr
+	f2 := []rune(os.Args[2])
+	f3 := []rune(os.Args[3])
 
 	for i := 0; i <= len(f)-1; i++ {
 		if f[i] == f2[0] {
