@@ -1,0 +1,19 @@
+Assignment name  : rev_wstr
+Expected files   : rev_wstr.go
+Allowed functions: github.com/01-edu/z01.PrintRune, os.Args, --allow-builtin--
+--------------------------------------------------------------------------------
+Reverse string by whitespace. This one was the first new problem for me.
+ I had to write a program that takes a string delineated by white space and prints 
+ the string with the words reversed. ./rev_wstr "This is a test" would output "test a is This". 
+ I ended up doing this one recursively, printing each last word, 
+ then setting the last space to null and calling the function again. Conceptually interesting, and nontrivial to implement.
+
+Examples:
+
+$>go run . "This is a test"
+"test a is This"
+$>go run . "My horse is Amazing."
+Amazing is horse My
+$>go run . | cat -e
+$
+$>
