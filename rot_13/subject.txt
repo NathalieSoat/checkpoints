@@ -1,0 +1,27 @@
+Assignment name  : rot_13
+Expected files   : rot_13.go
+Allowed functions: github.com/01-edu/z01.PrintRune, os.Args, --allow-builtin--
+--------------------------------------------------------------------------------
+
+Write a program that takes a string and displays it, replacing each of its
+letters by the letter 13 spaces ahead in alphabetical order.
+
+'z' becomes 'm' and 'Z' becomes 'M'. Case remains unaffected.
+
+The output will be followed by a newline.
+
+If the number of arguments is not 1, the program displays a newline.
+
+Example:
+
+$>go run . "abc"
+nop
+$>.go run . "My horse is Amazing." | cat -e
+Zl ubefr vf Nznmvat.$
+$>go run . "AkjhZ zLKIJz , 23y " | cat -e
+NxwuM mYXVWm , 23l $
+$>go run . | cat -e
+$
+$>
+$>go run . "" | cat -e
+$
