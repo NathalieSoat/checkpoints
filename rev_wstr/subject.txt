@@ -10,7 +10,7 @@ Reverse string by whitespace. This one was the first new problem for me.
 
 Examples:
 
-$>go run . "This is a test"
+$>go run . "This is a test" (to insert in main code)
 "test a is This"
 $>go run . "My horse is Amazing."
 Amazing is horse My

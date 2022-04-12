@@ -38,6 +38,5 @@ func RevSplitWhiteSpaces(s string) []string {
 }
 
 func main() {
-
-	fmt.Println((RevSplitWhiteSpaces("This is a test")))
+	fmt.Println((RevSplitWhiteSpaces("My horse is Amazing")))
 }
