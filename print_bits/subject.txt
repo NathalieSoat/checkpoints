@@ -7,4 +7,5 @@ Write a program that take an int and prints it in binary WITHOUT A NEWLINE
 AT THE END.
 
 Example, if you pass 2 to print_bits, it will print "00000010"
-Solution by Helena
+
+Solution by Helena Sedmak
