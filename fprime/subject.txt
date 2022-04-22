@@ -1,0 +1,33 @@
+Assignment name  : fprime
+Expected files   : main.go
+Allowed functions: strconv, os, github.com/01-edu/z01
+--------------------------------------------------------------------------------
+
+Write a program that takes a positive int and displays its prime factors on the
+standard output, followed by a newline.
+
+Factors must be displayed in ascending order and separated by '*', so that
+the expression in the output gives the right result.
+
+If the number of parameters is not 1, simply display a newline.
+
+The input, when there's one, will be valid.
+
+Examples:
+
+$> go run . 225225
+3*3*5*5*7*11*13$
+$> go run . 8333325
+3*3*5*5*7*11*13*37$
+$> go run . 9539
+9539$
+$> go run . 804577
+804577$
+$> go run . 42
+2*3*7$
+$> go run .1
+1$
+$> go run .
+$
+$> go run . 42 21
+$
