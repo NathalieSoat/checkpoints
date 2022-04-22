@@ -1,0 +1,8 @@
+Assignment name  : max
+Expected files   : max.cgo
+Allowed functions: --allow built in --
+--------------------------------------------------------------------------------
+
+Write a function that returns the largest number found in the array.
+
+If the array is empty, the function returns 0.
