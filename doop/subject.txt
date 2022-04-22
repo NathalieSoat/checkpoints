@@ -1,0 +1,15 @@
+Assignment name  : doop
+Expected files   : doop.go
+Allowed functions: github.com/01-edu/z01.PrintRune, os.Args, --allow-builtin--
+--------------------------------------------------------------------------------
+
+Write a program that is called doop.
+
+The program has to be used with three arguments:
+
+A value
+An operator, one of : +, -, /, *, %
+Another value
+In case of an invalid operator, value, number of arguments or an overflow, the programs prints nothing.
+
+The program has to handle the modulo and division operations by 0 as shown on the output examples below.
